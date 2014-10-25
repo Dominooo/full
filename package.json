@@ -1,0 +1,25 @@
+{
+  "name": "full",
+  "version": "1.0.0",
+  "description": "full stack app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/node-dev/bin/node-dev server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dominooo/full.git"
+  },
+  "author": "Devin Olsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dominooo/full/issues"
+  },
+  "homepage": "https://github.com/Dominooo/full",
+  "dependencies": {
+    "body-parser": "^1.9.1",
+    "express": "^4.10.0",
+    "node-dev": "^2.6.0"
+  }
+}
